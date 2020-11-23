@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Page Object Model with Page Factories" duration-ms="12972" started-at="2020-11-23T13:51:01Z" finished-at="2020-11-23T13:51:14Z">
+    <groups>
+    </groups>
+    <test name="Flight Search Test" duration-ms="12972" started-at="2020-11-23T13:51:01Z" finished-at="2020-11-23T13:51:14Z">
+      <class name="com.pwa.testcases.FlightSearchTest">
+        <test-method status="PASS" signature="initConfiguration()[pri:0, instance:com.pwa.testcases.FlightSearchTest@1573f9fc]" name="initConfiguration" is-config="true" duration-ms="11523" started-at="2020-11-23T07:51:01Z" finished-at="2020-11-23T07:51:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initConfiguration -->
+        <test-method status="PASS" signature="flightSearchTest(java.util.Hashtable)[pri:0, instance:com.pwa.testcases.FlightSearchTest@1573f9fc]" name="flightSearchTest" duration-ms="214" started-at="2020-11-23T07:51:12Z" data-provider="dp" finished-at="2020-11-23T07:51:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{toDate=14/12/2017, fromDate=12/12/17, runmode=Y, toCity=Seattle, WA, United States (SEA-Seattle - Tacoma Intl.), noOfAdults=2.0, noOfChildern=2.0, fromCity=Delhi, India (DEL-Indira Gandhi Intl.)}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightSearchTest -->
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:com.pwa.testcases.FlightSearchTest@1573f9fc]" name="quitBrowser" is-config="true" duration-ms="719" started-at="2020-11-23T07:51:13Z" finished-at="2020-11-23T07:51:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- com.pwa.testcases.FlightSearchTest -->
+    </test> <!-- Flight Search Test -->
+  </suite> <!-- Page Object Model with Page Factories -->
+</testng-results>
